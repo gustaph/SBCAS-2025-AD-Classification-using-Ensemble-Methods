@@ -5,9 +5,10 @@
 </h1>
 
 <p align="center">
-  <a href="YOUR_COLAB_LINK_HERE"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  <a href="https://colab.research.google.com/drive/1YDYlQTR0PTn49DHRDMpXE_wpvTR3HWir?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   &nbsp;
-  <a href="YOUR_WANDB_LINK_HERE"><img src="https://img.shields.io/badge/Weights_&_Biases-FFCC33?logo=weightsandbiases&logoColor=black" alt="Weights & Biases"></a>
+  <a href="https://wandb.ai/gustaph/sbcas-ensemble/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Weights_&_Biases-FFCC33?logo=weightsandbiases&logoColor=black" alt="Weights & Biases"></a>
+</p>
 </p>
 
 Published on XXV Simpósio Brasileiro de Computação Aplicada à Saúde (SBCAS)
@@ -23,7 +24,7 @@ Link to the manuscript:
 - [Antonio F. L. Jacob Jr.]()
 
 ### Abstract
-
+Alzheimer's Disease (AD), affecting over 55 million people globally, demands reliable diagnostic tools. Single-model approaches using CNNs and traditional ML face critical limitations. This study proposes two frameworks: a stacking-CNN ensemble (VGG-16, ResNet-101, DenseNet-121) and two voting ML ensembles (Voting[all]: KNN, RF, SVC, LR, XGBoost; Voting[few]: KNN, RF, XGBoost). Evaluated on 6,400 MRIs, Voting[few] achieved the highest classification metrics (97.8\% accuracy; 0.984 MCC; 93.8\% F1macro), outperforming individual CNNs, validated through Friedman-Nemenyi tests. Results suggest, in this context, that simpler ML models might better capture the inherent characteristics of MRI data for AD diagnosis.
 
 ### Citing this work
 ```
