@@ -13,9 +13,6 @@
 
 Published on XXV Simpósio Brasileiro de Computação Aplicada à Saúde (SBCAS)
 
-Link to the manuscript:
-
-- 
 
 ### Authors
 
@@ -28,17 +25,21 @@ Alzheimer's Disease (AD), affecting over 55 million people globally, demands rel
 
 ### Citing this work
 ```
-
+@inproceedings{Silva_2025,
+ author = {Gustavo Silva and Omar Cortes and Antonio Jacob Jr.},
+ title = { Classification of Alzheimer’s Disease by Magnetic Resonance Imaging with an Ensemble Approach},
+ booktitle = {Anais do XXV Simpósio Brasileiro de Computação Aplicada à Saúde},
+ location = {Porto Alegre/RS},
+ year = {2025},
+ keywords = {},
+ issn = {2763-8952},
+ pages = {32--43},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/sbcas.2025.6919},
+ url = {https://sol.sbc.org.br/index.php/sbcas/article/view/35482}
+}
 ```
 
 ### Dataset
-```
-@dataset{alzheimer_mri_dataset,
-  author = {Falah.G.Salieh},
-  title = {Alzheimer MRI Dataset},
-  year = {2023},
-  publisher = {Hugging Face},
-  version = {1.0},
-  url = {https://huggingface.co/datasets/Falah/Alzheimer_MRI}
-}
-```
+This project uses the Alzheimer MRI Dataset, a collection of brain MRI scans for Alzheimer's disease classification. The dataset is available on [Hugging Face](https://huggingface.co/datasets/Falah/Alzheimer_MRI).
